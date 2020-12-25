@@ -1,12 +1,30 @@
 body {
     margin: 0;
-    background: white;
+    background: #2d3d59;
+    /* background: #151f30; */
+    /* background: #1a1e26; */
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
+    color: white;
+}
+
+body h1 {
+    color: rgb(255, 255, 255);
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    background-color: darkorange;
 }
 
 header {
-    background: #151f30;
+    /* background: #2d3d59; */
+    /* background: #151f30; */
+    background: #1a1e26;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
 }
 
 header::after {
@@ -20,12 +38,18 @@ header::after {
     margin: 0 auto;
 }
 
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .logo {
     width: 150px;
     height: auto;
 
     float: left;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 nav {
@@ -41,12 +65,13 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 40px;
+    padding-top: 50px;
 
     position: relative;
 }
 
 nav a {
+    padding: 10px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;

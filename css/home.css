@@ -1,0 +1,100 @@
+.clouds {
+    float: right;
+    padding-left: 20px;
+    height: 580px;
+    width: auto;
+}
+
+.demystify {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.demystify h1 {
+    font-weight: 400;
+}
+
+.socials {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.socials li {
+    display: inline-block;
+
+    margin: 15px;
+    position: relative;
+}
+
+.socials a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.socials a:hover {
+    opacity: 85%;
+}
+
+.socials a::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: orange;
+
+    position: absolute;
+    bottom: -5px;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+.socials a:hover::after {
+    width: 100%;
+}
+
+.join {
+    margin-top: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.join:hover {
+    opacity: 85%;
+    color: orange;
+}
+
+.join:focus {
+    outline: none;
+}
+
+
+.board {
+    float: left;
+    padding-right: 20px;
+    width: 500px;
+    height: auto;
+}
+
+.explain {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.explain h1 {
+    font-weight: 400;
+}
+
+.explain p {
+    overflow: hidden;
+}

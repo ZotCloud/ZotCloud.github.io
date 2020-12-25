@@ -1,0 +1,14 @@
+.mission {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.mission h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.mission p {
+    margin: auto;
+    width: 60%;
+}
