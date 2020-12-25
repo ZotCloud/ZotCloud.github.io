@@ -10,11 +10,6 @@
     overflow: hidden;
 }
 
-.officers h1 {
-    font-weight: 400;
-    color: darkOrange;
-}
-
 .Humza, .Malhar, .Pedro, .Tejas {
     text-align: center;
     padding-right: 20px;
