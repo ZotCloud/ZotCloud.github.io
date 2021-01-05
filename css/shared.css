@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    background: rgb(241, 255, 255);
+    background: rgb(255, 238, 238);
     /* background: #151f30; */
     /* background: #1a1e26; */
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
 }
 
 body h1 {
@@ -15,15 +15,15 @@ body h1 {
 hr {
     height: 2px;
     border-width: 0;
-    background-color: rgb(145, 145, 145);
+    background-color: rgb(114, 114, 114);
 }
 
 header {
-    background: #2d3d59;
+    background: #1d2739;
     /* background: #151f30; */
     /* background: #1a1e26; */
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
 }
 
