@@ -22,9 +22,13 @@ header {
     background: #1d2739;
     /* background: #151f30; */
     /* background: #1a1e26; */
-
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
+
+    /* make header stick when scrolling */
+    position: -webkit-sticky; /* required for safari support */
+    position: sticky;
+    top: 0;
 }
 
 header::after {
