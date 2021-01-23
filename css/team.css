@@ -10,7 +10,10 @@
     overflow: hidden;
 }
 
-.Humza, .Malhar, .Pedro, .Tejas {
+.humza,
+.malhar,
+.pedro,
+.tejas {
     text-align: center;
     padding-right: 20px;
     float: left;
